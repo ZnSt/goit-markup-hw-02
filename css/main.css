@@ -24,6 +24,10 @@ ul {
   list-style: none;
 }
 
+/* Шапка сайта */
+.site {
+  background-color: var(--primary-white-color);
+}
 .logo {
   color: #000000;
   color: #2196f3;
@@ -35,6 +39,9 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -50,7 +57,19 @@ ul {
 /* Bg */
 .bg-title {
   color: var(--primary-white-color);
+}
+.bg {
   background-color: #2f303a;
+}
+
+/* Button */
+.primary-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-size: 24px;
+  padding: 12px 24px;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 /* Секция особенности */
@@ -60,7 +79,14 @@ ul {
 .peculiarities-title {
   color: var(--primary-text-color);
 }
-
+.peculiarities {
+  background-color: #e5e5e5;
+}
+/* Секция чем мы занимаемся */
+.work {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
 /* Секция наша команда */
 .team-title {
   color: var(--primary-text-color);
@@ -68,11 +94,21 @@ ul {
 .leader-title {
   color: var(--secondary-text-color);
 }
-
-/* Button */
-.color-button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+.team {
+  background-color: #f5f4fa;
 }
 
 /* Футер */
+.foot {
+  background-color: #2f303a;
+}
+.foot-title {
+  color: var(--primary-white-color);
+}
+.colour {
+  color: var(--contact-color);
+}
+.colour .link:hover,
+.colour .link:focus {
+  color: var(--accent-color);
+}
