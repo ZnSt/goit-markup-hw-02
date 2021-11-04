@@ -30,7 +30,12 @@ ul {
 }
 .logo {
   color: #000000;
-  color: #2196f3;
+}
+.blue {
+  color: var(--accent-color);
+}
+.white {
+  color: var(--primary-white-color);
 }
 
 /* Навигация */
@@ -105,10 +110,15 @@ ul {
 .foot-title {
   color: var(--primary-white-color);
 }
+
 .colour {
   color: var(--contact-color);
 }
+
 .colour .link:hover,
 .colour .link:focus {
   color: var(--accent-color);
+}
+.colour .link {
+  color: var(--contact-color);
 }
