@@ -23,6 +23,16 @@ body {
 
 ul {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
 }
 
 /* Шапка сайта */
@@ -87,13 +97,14 @@ button {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 .bg {
   background-color: #2f303a;
+  text-align: center;
 }
 
 /* Button */
@@ -107,6 +118,10 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  border-color: var(--accent-color);
 }
 
 /* Секция особенности */
@@ -116,6 +131,7 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 0px;
 }
 .peculiarities-title {
   color: var(--primary-text-color);
@@ -124,9 +140,13 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .peculiarities {
   background-color: #e5e5e5;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* Секция чем мы занимаемся */
 .work {
@@ -141,6 +161,8 @@ button {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 /* Секция наша команда */
 .team-title {
@@ -151,6 +173,8 @@ button {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .leader-title {
   color: var(--secondary-text-color);
@@ -163,6 +187,8 @@ button {
 }
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-your {
   color: var(--primary-text-color);
@@ -173,6 +199,8 @@ button {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 /* Футер */
 .foot {
