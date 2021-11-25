@@ -29,16 +29,18 @@ ul {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
   outline: 2px solid tomato;
 }
 
 /* Шапка сайта */
+
 .site {
   background-color: var(--primary-white-color);
 }
+
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
@@ -100,7 +102,7 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .bg {
   background-color: #2f303a;
@@ -132,6 +134,7 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 .peculiarities-title {
   color: var(--primary-text-color);
@@ -145,13 +148,12 @@ button {
 }
 .peculiarities {
   background-color: #e5e5e5;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 /* Секция чем мы занимаемся */
 .work {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+  padding-bottom: 94px;
 }
 .work-title {
   font-family: Roboto;
@@ -163,6 +165,7 @@ button {
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 /* Секция наша команда */
 .team-title {
@@ -184,10 +187,10 @@ button {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 0px;
 }
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .team-your {
@@ -205,6 +208,8 @@ button {
 /* Футер */
 .foot {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .foot-title {
   color: var(--primary-white-color);
@@ -214,6 +219,8 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .colour {
@@ -233,4 +240,13 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
+}
+.link:last-child {
+  margin-bottom: 0;
 }

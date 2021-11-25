@@ -23,6 +23,17 @@ body {
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 /* Шапка сайта */
@@ -97,6 +108,8 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .text-title {
   color: var(--secondary-text-color);
@@ -105,11 +118,24 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-margin {
+  margin-bottom: 50px;
 }
 
 /* Футер */
 .foot {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logotip {
   color: var(--primary-white-color);
@@ -131,17 +157,28 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .foot-colour {
   color: var(--contact-color);
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
 }
 .foot-colour .link:hover,
 .foot-colour .link:focus {
   color: var(--accent-color);
+}
+
+.foot-colour:last-child {
+  margin-bottom: 0;
 }
